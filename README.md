@@ -14,11 +14,17 @@
    git clone https://github.com/omeraen/Redis_FastAPI_PostgreSQL.git
    ```
 2. Создайте файл `.env` (пример ниже).
-3. Запустите сервисы:
+   ```
+   DATABASE_URL=postgresql+psycopg2://postgres:example@db:5432/yourdbname
+   REDIS_HOST=redis
+   REDIS_PORT=6379
+   ```
+
+4. Запустите сервисы:
    ```sh
    docker-compose up -d --build
    ```
-4. Приложение будет доступно на [http://localhost:8000](http://localhost:8000)
+5. Приложение будет доступно на [http://localhost:8000](http://localhost:8000)
 
 ## Пример .env
 ```
