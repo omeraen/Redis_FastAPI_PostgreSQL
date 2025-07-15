@@ -11,8 +11,7 @@
 
 1. Клонируйте репозиторий и перейдите в папку проекта:
    ```sh
-   git clone 
-   cd <project-folder>
+   git clone https://github.com/omeraen/Redis_FastAPI_PostgreSQL.git
    ```
 2. Создайте файл `.env` (пример ниже).
 3. Запустите сервисы:
